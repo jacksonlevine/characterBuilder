@@ -32,6 +32,7 @@ function takeForm(event) {
       }
     }
     
+    document.querySelector(".head").firstElementChild.style.color = document.getElementById("hcolor").value;
 
     document.querySelector(".shirt").firstElementChild.style.color = document.getElementById("scolor").value;
 

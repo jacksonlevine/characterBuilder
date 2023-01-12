@@ -20,6 +20,7 @@ body {
 
 .characterDisplay .name {
   -webkit-text-stroke:0px;
+  font-size:250%;
 }
 
 .characterDisplay .head {
