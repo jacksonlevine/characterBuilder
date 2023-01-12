@@ -1,31 +1,29 @@
-# (Application Name)
+# Character Builder
 
-#### (Brief Description of Application)
+#### HTML input form testing application.
 
-#### By (Your Name Here)
+#### By Jackson Levine
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* HTML
+* Javascript
+* CSS
 
 ## Description
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* Clone the repository
+* Navigate to the top folder
+* Launch index.html!
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* Limited display capability
 
 ## License
+Creative Commons
 
 ## Contact Information
+jack@netbug.us
