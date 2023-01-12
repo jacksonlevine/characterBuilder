@@ -12,7 +12,6 @@ onload = function() {
     var ht = "";
     for(let i of headOpts) {
       if(i.checked) {
-        console.log(i.id);
         ht = i.id;
       }
     }
