@@ -2,8 +2,12 @@ onload = function() {
   let form = document.querySelector("form");
   form.onsubmit = function(event) {
     event.preventDefault();
+    takeForm(event);
   }
-  onclick = function(event) {
+  onclick = takeForm;
+}
+
+function takeForm(event) {
     //event.preventDefault();
     let val = document.getElementById("nameInp").value;
     if(val != "") {
@@ -36,4 +40,3 @@ onload = function() {
     document.querySelector(".feet").firstElementChild.style.color = document.getElementById("shcolor").value;
 
   }
-}
