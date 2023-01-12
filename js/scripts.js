@@ -5,8 +5,10 @@ onload = function() {
   }
   onclick = function(event) {
     //event.preventDefault();
-
-    document.querySelector(".name").innerHTML = document.getElementById("nameInp").value;
+    let val = document.getElementById("nameInp").value;
+    if(val != "") {
+    document.querySelector(".name").innerHTML = val;
+    }
 
     var headOpts = document.getElementsByName("headtype");
     var ht = "";
