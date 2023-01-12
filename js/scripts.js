@@ -1,5 +1,8 @@
 onload = function() {
   let form = document.querySelector("form");
+  form.onsubmit = function(event) {
+    event.preventDefault();
+  }
   onclick = function(event) {
     //event.preventDefault();
 
